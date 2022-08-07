@@ -13,8 +13,10 @@ public class KillShepEvent implements Listener {
     @EventHandler
     public void ShepDied(EntityDeathEvent e){
         if(e.getEntity().toString().equals("CraftSheep")){
-            e.getEntity().getKiller().spawnParticle(Particle.EXPLOSION_HUGE, e.getEntity().getKiller().getLocation(), 32);
-            e.getEntity().getKiller().damage(10.0);
+            if(e.getEntity().getKiller() != null) {
+                e.getEntity().getKiller().spawnParticle(Particle.EXPLOSION_HUGE, e.getEntity().getKiller().getLocation(), 32);
+                e.getEntity().getKiller().damage(10.0);
+            }
         }
     }
 
