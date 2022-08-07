@@ -1,5 +1,5 @@
 # Explosive Sheep
-Don't question the name. It means it means. Just trust me bro. I'm an Expert.
+Don't question the name. It means what it means. Just trust me bro. I'm an Expert.
 
 ### [Goal]
 
