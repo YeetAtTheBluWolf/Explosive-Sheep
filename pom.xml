@@ -11,7 +11,7 @@
 
     <name>ExplosiveSheep</name>
 
-    <description>Don't question the name. It means it means. Just trust me bro. I'm an Expert.</description>
+    <description>Don't question the name. It means what it means. Just trust me bro. I'm an Expert.</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
