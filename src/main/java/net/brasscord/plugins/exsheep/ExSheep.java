@@ -9,7 +9,7 @@ public final class ExSheep extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getServer().getPluginManager().registerEvents(new KillShepEvent(), this);
+        getServer().getPluginManager().registerEvents(new KillShepEvent(this), this);
         getServer().getPluginManager().registerEvents(new SheerShepEvent(), this);
     }
 
