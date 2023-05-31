@@ -1,8 +1,5 @@
 # Explosive Sheep
 It's in the name.
-### [Goal]
-
-This is just a learning experience.
 
 ### [Spigot Page]
 
