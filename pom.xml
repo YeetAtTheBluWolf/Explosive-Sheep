@@ -6,24 +6,24 @@
 
     <groupId>net.brasscord.plugins</groupId>
     <artifactId>ExSheep</artifactId>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
     <packaging>jar</packaging>
 
     <name>ExplosiveSheep</name>
 
     <description>Don't question the name. It means what it means. Just trust me bro. I'm an Expert.</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <url>https://github.com/YeetAtTheBluWolf/ExplosiveSheep</url>
+    <url>https://github.com/YeetAtTheBluWolf/Explosive-Sheep</url>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.10.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>

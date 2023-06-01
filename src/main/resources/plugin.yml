@@ -3,6 +3,6 @@ version: '${project.version}'
 main: net.brasscord.plugins.exsheep.ExSheep
 api-version: 1.19
 prefix: shep
-authors: [ Rick ]
+authors: [ Soul ]
 description: Don't question the name. It means it means. Just trust me bro. I'm an Expert.
-website: https://github.com/YeetAtTheBluWolf/ExplosiveSheep
+website: https://github.com/YeetAtTheBluWolf/Explosive-Sheep

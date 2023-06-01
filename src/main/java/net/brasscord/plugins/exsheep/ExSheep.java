@@ -7,6 +7,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ExSheep extends JavaPlugin {
 
+    private static boolean enabledPlugin;
+
     private boolean isEnabledPlugin() {
         return enabledPlugin;
     }
@@ -15,14 +17,11 @@ public final class ExSheep extends JavaPlugin {
         ExSheep.enabledPlugin = enabledPlugin;
     }
 
-    private static boolean enabledPlugin;
-
     @Override
     public void onEnable() {
         // Plugin startup logic
         BasicConfig.manageConfig();
-        if(isEnabledPlugin())
-        {
+        if(isEnabledPlugin()) {
             getServer().getPluginManager().registerEvents(new KillShepEvent(this), this);
             getServer().getPluginManager().registerEvents(new SheerShepEvent(), this);
         }
