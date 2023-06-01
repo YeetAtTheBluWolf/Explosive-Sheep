@@ -22,7 +22,7 @@ public final class ExSheep extends JavaPlugin {
         // Plugin startup logic
         BasicConfig.manageConfig();
         if(isEnabledPlugin()) {
-            getServer().getPluginManager().registerEvents(new KillShepEvent(this), this);
+            getServer().getPluginManager().registerEvents(new KillShepEvent(), this);
             getServer().getPluginManager().registerEvents(new SheerShepEvent(), this);
         }
     }
